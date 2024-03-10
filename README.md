@@ -11,8 +11,10 @@
   *  [Query Monitor](https://wordpress.org/plugins/query-monitor/) by [John Blackbourn](https://querymonitor.com/)
 ### 3. Mobile and Web Live Server Debugging
   * Herd/Valet Live Server Setup
-     * define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
-     * define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
+     ```bash
+     define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
+     define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
+     ```
 
 Relative URL Plugin
 Installation and Activation 
