@@ -16,11 +16,14 @@
      define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
      ```
 
-Relative URL Plugin
-Installation and Activation 
-Command for Live Server
-herd share    //for herd server
-valet share   //for valet server
+  * Relative URL Plugin
+     * Installation and Activation
+
+  * Command for Live Server
+      ```bash
+      herd share    //for herd server
+      valet share   //for valet server
+      ```
 Email Debugging
 Ensure Mail Server is Running
 brew services list
