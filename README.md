@@ -86,7 +86,7 @@ brew services start mailhog
 brew services start mailhog
 ```
 
-### Use an SMTP Plugin
+### * Use an SMTP Plugin
 Install an SMTP plugin like [MailHog for WordPress](https://wordpress.org/plugins/wp-mailhog-smtp/) By [Tareq Hasan](https://tareq.co) or [FluentSMTP] by [FluentSMTP & WPManageNinja Team](https://fluentsmtp.com) within your plugin environment to debug email-related issues.
 
 ### * Mail Dashboard (For Mailhog)
