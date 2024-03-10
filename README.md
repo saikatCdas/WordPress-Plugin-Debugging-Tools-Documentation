@@ -10,11 +10,9 @@
   *  [Debug Toolkit](https://wordpress.org/plugins/debug-toolkit/) by [hellofromTonya](https://knowthecode.io/)
   *  [Query Monitor](https://wordpress.org/plugins/query-monitor/) by [John Blackbourn](https://querymonitor.com/)
 ### 3. Mobile and Web Live Server Debugging
-  a Herd/Valet Live Server Setup
-    ```bash
-     define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
-     define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
-    ```
+  * Herd/Valet Live Server Setup
+     * define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
+     * define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
 
 Relative URL Plugin
 Installation and Activation 
