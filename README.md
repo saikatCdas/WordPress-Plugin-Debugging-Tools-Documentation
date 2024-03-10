@@ -70,9 +70,9 @@ Add the following lines to your plugin's ``wp-config.php`` file:
 define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
 define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
 ```
-### Install and activate the Relative URL plugin within your plugin environment to address any file path issues.
+#### Install and activate the Relative URL plugin within your plugin environment to address any file path issues.
 
-### Run the command ``herd share`` in your plugin's root directory to set up a live server for debugging.
+#### Run the command ``herd share`` in your plugin's root directory to set up a live server for debugging.
 
 
 ## 4. Email Debugging
