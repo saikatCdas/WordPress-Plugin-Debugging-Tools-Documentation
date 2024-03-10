@@ -44,24 +44,26 @@
 
 ## 1. WordPress Configuration Settings
 To enable debugging in WordPress plugins, make sure the following lines are added to your plugin's ``wp-config.php`` file:
+```bash
 define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true );
 define( 'WP_DEBUG_DISPLAY', true );
 define( 'SCRIPT_DEBUG', true );
+```
 
 These settings will log errors, display them, and enable script debugging for your plugin.
 
 
-2. Basic Debugging Plugins
-Die Dumper (DD)
+## 2. Basic Debugging Plugins
+### * Die Dumper (DD)
 Die Dumper is a debugging tool that helps you inspect variables and data during runtime. Install and activate the plugin in your WordPress environment to use it for debugging your plugin.
- Debug Toolkit - Hello from Tonya
+### * Debug Toolkit - Hello from Tonya
 Debug Toolkit by Tonya is another essential plugin for debugging. It provides various tools and features to streamline the debugging process for your plugin development.
-Query Monitor
+### *Query Monitor
 Query Monitor is a powerful debugging tool that gives you insights into database queries, PHP errors, and more. Install and activate the plugin within your plugin environment for in-depth debugging capabilities.
 
 
-3. Mobile and Web Live Server Debugging
+##3. Mobile and Web Live Server Debugging
 Herd/Valet Live Server Setup
 Add the following lines to your plugin's wp-config.php file:
 php
