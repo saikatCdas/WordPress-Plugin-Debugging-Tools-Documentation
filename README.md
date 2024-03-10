@@ -59,7 +59,7 @@ These settings will log errors, display them, and enable script debugging for yo
 Die Dumper is a debugging tool that helps you inspect variables and data during runtime. Install and activate the plugin in your WordPress environment to use it for debugging your plugin.
 ### * Debug Toolkit - Hello from Tonya
 Debug Toolkit by Tonya is another essential plugin for debugging. It provides various tools and features to streamline the debugging process for your plugin development.
-### *Query Monitor
+### * Query Monitor
 Query Monitor is a powerful debugging tool that gives you insights into database queries, PHP errors, and more. Install and activate the plugin within your plugin environment for in-depth debugging capabilities.
 
 
