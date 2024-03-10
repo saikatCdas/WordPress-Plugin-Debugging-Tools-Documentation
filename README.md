@@ -5,14 +5,16 @@
      define( 'WP_DEBUG_LOG', true );
      define( 'WP_DEBUG_DISPLAY', true );
      define( 'SCRIPT_DEBUG', true );
-Basic Debugging Plugins
-Die Dumper (DD)  
-Debug Toolkit by hellofromTonya
-Query Monitor by John Blackbourn
-Mobile and Web Live Server Debugging
-Herd/Valet Live Server Setup
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
+### 2. Basic Debugging Plugins
+  *  [Die Dumper (DD)](https://github.com/adreastrian/dd)
+  *  [Debug Toolkit](https://wordpress.org/plugins/debug-toolkit/) by [hellofromTonya](https://knowthecode.io/)
+  *  [Query Monitor](https://wordpress.org/plugins/query-monitor/) by [John Blackbourn](https://querymonitor.com/)
+### 3. Mobile and Web Live Server Debugging
+  a Herd/Valet Live Server Setup
+    ```bash
+     define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
+     define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
+    ```
 Relative URL Plugin
 Installation and Activation 
 Command for Live Server
