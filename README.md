@@ -1,12 +1,10 @@
 # WordPress Plugin Debugging Tools Documentation
 ## Table of Contents
 ### 1. WordPress Configuration Settings
-     ```bash
      define( 'WP_DEBUG', true );
      define( 'WP_DEBUG_LOG', true );
      define( 'WP_DEBUG_DISPLAY', true );
      define( 'SCRIPT_DEBUG', true );
-     ```
 Basic Debugging Plugins
 Die Dumper (DD)  
 Debug Toolkit by hellofromTonya
