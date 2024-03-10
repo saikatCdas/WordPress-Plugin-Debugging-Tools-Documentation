@@ -24,22 +24,26 @@
       herd share    //for herd server
       valet share   //for valet server
       ```
-Email Debugging
-Ensure Mail Server is Running
-brew services list
-To run: brew services start mailhog
-Use an SMTP Plugin 
-Mailhog for WordPress 
-FluentSTMP
-Mail Dashboard
-URL: mail.test:8025 // For mailhog
-Additional Plugin Debugging Tools
-Debug Bar By wordpressdotorg
-Query Monitor Plugin Extension 
+### 4. Email Debugging
+   * Ensure Mail Server is Running
+       ```bash
+       brew services list
+       To run: brew services start mailhog
+       ```
+   * Use an SMTP Plugin 
+     * [Mailhog for WordPress](https://wordpress.org/plugins/wp-mailhog-smtp/)
+     * [FluentSTMP](https://wordpress.org/plugins/fluent-smtp/)
+   * Mail Dashboard
+     ```bash
+      URL: mail.test:8025 // For mailhog
+     ```
+### 5. Additional Plugin Debugging Tools
+   * [Debug Bar](https://wordpress.org/plugins/debug-bar/) By [wordpressdotorg](https://wordpress.org/)
+   * Query Monitor Plugin Extension 
 
 
-1. WordPress Configuration Settings
-To enable debugging in WordPress plugins, make sure the following lines are added to your plugin's wp-config.php file:
+## 1. WordPress Configuration Settings
+To enable debugging in WordPress plugins, make sure the following lines are added to your plugin's ``wp-config.php`` file:
 define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true );
 define( 'WP_DEBUG_DISPLAY', true );
