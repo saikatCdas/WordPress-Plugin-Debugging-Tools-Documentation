@@ -64,7 +64,7 @@ Query Monitor is a powerful debugging tool that gives you insights into database
 
 
 ## 3. Mobile and Web Live Server Debugging
-### Herd/Valet Live Server Setup
+### * Herd/Valet Live Server Setup
 Add the following lines to your plugin's ``wp-config.php`` file:
 ```bash
 define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
@@ -76,12 +76,12 @@ Run the command ``herd share`` in your plugin's root directory to set up a live 
 
 
 ## 4. Email Debugging
-### Ensure Mail Server is Running
+### * Ensure Mail Server is Running
 Check if your mail server is running using the command:
 ```bash
 brew services start mailhog
 ```
-### To start the mail server, use:
+### * To start the mail server, use:
 ```bash
 brew services start mailhog
 ```
@@ -89,14 +89,14 @@ brew services start mailhog
 ### Use an SMTP Plugin
 Install an SMTP plugin like [MailHog for WordPress](https://wordpress.org/plugins/wp-mailhog-smtp/) By [Tareq Hasan](https://tareq.co) or [FluentSMTP] by [FluentSMTP & WPManageNinja Team](https://fluentsmtp.com) within your plugin environment to debug email-related issues.
 
-### Mail Dashboard (For Mailhog)
+### * Mail Dashboard (For Mailhog)
 Access the mail dashboard at mail.test:8025 within your plugin environment to monitor and debug emails sent from your WordPress plugin.
 
 
 ## 5. Additional Plugin Debugging Tools
-### Debug Bar
+### * Debug Bar
 Debug Bar is a plugin that adds a debugging menu to the admin bar, providing insights into database queries, hooks, and more. Install and activate this plugin for additional debugging capabilities.
-### Query Monitor Plugin Extension
+### * Query Monitor Plugin Extension
 Extend the functionality of Query Monitor with additional features specific to plugin development. Install and activate this extension for enhanced debugging tools.
 
 This documentation provides a comprehensive guide to debugging WordPress plugins using various tools and configurations. Follow these steps to enhance your plugin development workflow and identify and resolve issues efficiently.
