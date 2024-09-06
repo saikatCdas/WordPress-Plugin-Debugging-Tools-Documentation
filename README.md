@@ -3,7 +3,7 @@
 ### 1. WordPress Configuration Settings
      define( 'WP_DEBUG', true );
      define( 'WP_DEBUG_LOG', true );
-     define( 'WP_DEBUG_DISPLAY', true );
+     define( 'WP_DEBUG_DISPLAY', false );
      define( 'SCRIPT_DEBUG', true );
 ### 2. Basic Debugging Plugins
   *  [Die Dumper (DD)](https://github.com/adreastrian/dd)
@@ -47,7 +47,7 @@ To enable debugging in WordPress plugins, make sure the following lines are adde
 ```bash
 define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true );
-define( 'WP_DEBUG_DISPLAY', true );
+define( 'WP_DEBUG_DISPLAY', false );
 define( 'SCRIPT_DEBUG', true );
 ```
 
